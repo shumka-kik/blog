@@ -1,0 +1,31 @@
+body {
+	background-image: url('/static/image/bg-photo.jpg');      
+	background-position: center center;/* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   
+	background-repeat: no-repeat;      /* Фон не повторяется */
+	background-attachment: fixed;      /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   
+	background-size: cover;      /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   
+	background-color: #464646;/* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   
+}
+.container {
+	background-color: rgba(0, 0, 0, 0.69);
+}
+.blog-footer {
+	padding: 2.5rem 0;
+ 	color: #999;
+ 	text-align: center;
+ 	background-color: #f9f9f9;
+ 	border-top: .05rem solid #e5e5e5;
+}
+.blog-post-meta {
+	font-style: italic;
+	color: #ced4da;
+}
+.blog-post {
+	margin-bottom: 60px;
+}
+#title_link {
+	color: white;
+}
+#title_link:hover {
+	color: #83b5e1;
+}
